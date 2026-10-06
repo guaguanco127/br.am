@@ -1,5 +1,6 @@
 {
     "patcher": {
+"description" : "br.am.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
         "fileversion": 1,
         "appversion": {
             "major": 9,
@@ -14,6 +15,8 @@
         "openinpresentation": 1,
         "devicewidth": 150.0,
         "boxes": [
+{"box": {"id": "obj-signature", "maxclass": "comment", "numinlets": 1, "numoutlets": 0, "patching_rect": [606.0, 15.0, 520.0, 40.0], "text": "br.am.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/", "linecount": 2}},
+
             {
                 "box": {
                     "fontname": "Arial",
@@ -424,7 +427,7 @@
                     "angle": 270.0,
                     "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "bordercolor": [ 0.0, 0.0, 0.0, 1.0 ],
-                    "id": "obj-18",
+                    "id": "obj-18", "hint" : "br.am.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/", "annotation" : "br.am.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
                     "maxclass": "panel",
                     "mode": 0,
                     "numinlets": 1,
