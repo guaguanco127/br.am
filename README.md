@@ -1,6 +1,6 @@
 # Max/MSP Patches, Abstractions, Externals, RNBO, VSTs, and Ableton Max for Live 
 
-## br.am.1.0
+## br.am.1.1
 
 
 
@@ -9,17 +9,25 @@ By Brian Riordan
 [brianriordanmusic@gmail.com](mailto:brianriordanmusic@gmail.com)  
 [https://www.brianriordanmusic.com/](https://www.brianriordanmusic.com/) 
   
-Repository for br.am.1.0, with all related files, can be found here: [https://github.com/guaguanco127/br.am](https://github.com/guaguanco127/br.am)  
+Repository for br.am.1.1, with all related files, can be found here: [https://github.com/guaguanco127/br.am](https://github.com/guaguanco127/br.am)  
 Additional programs can be found here: [https://github.com/guaguanco127/br.max](https://github.com/guaguanco127/br.max)
 
 These files were created with Max 9. 
 
 ## Links
 
+[What's new in 1.1](#New11)  
 [About](#About)   
 [Max/MSP Abstraction](https://github.com/guaguanco127/br.am/tree/main/MaxMSP%20Abstraction) To use as an abstraction within Max/MSP   
 
 This is a Max/MSP-only release (no Max for Live device).
+
+## <a name="New11"></a>What's new in 1.1
+
+- **Two files:** br.am.1.1 is the plain object, whose Depth, Ring and Slew inlets take signals as well as numbers (patch an LFO into Ring to morph AM into ring mod), and br.am.ui.1.1 is the version with dials, for a [bpatcher].
+- A State outlet on br.am.ui.1.1 sends the settings as named messages the moment they change.
+- A smaller panel, and an example patch with tabs: tremolo, ring mod and State outlet.
+- Inlets and audio outlets are unchanged.
 
 ## <a name="About"></a>About
 
@@ -33,4 +41,8 @@ A stereo Max/MSP abstraction for amplitude modulation that morphs smoothly into 
 
 **Slew** smooths the modulator so that square or stepped LFOs do not click. Turning Depth and Ring by hand also never clicks: they always glide over 20 ms.
 
-The example patch (_br.am.example.1.0.maxpat) has two versions side by side: one with a sine modulator to try tremolo and ring modulation, and one with a square modulator to hear what Slew does.
+**Signal control:** The plain br.am.1.1 takes signals in Depth, Ring and Slew, so an LFO or envelope can move them.
+
+**State outlet:** br.am.ui.1.1 reports its settings by name from its last outlet.
+
+The example patch (_br.am.example.1.1.maxpat) has a tremolo tab (a sine modulator, and a square one to hear what Slew does), a ring mod tab with spectroscopes and an LFO morphing the plain object, and a State outlet tab.
