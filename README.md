@@ -1,4 +1,4 @@
-# Max/MSP Patches, Abstractions, Externals, RNBO, VSTs, and Ableton Max for Live 
+# Max/MSP Patches, Abstractions, Externals, RNBO and VSTs
 
 ## br.am.1.1
 
@@ -12,21 +12,23 @@ By Brian Riordan
 Repository for br.am.1.1, with all related files, can be found here: [https://github.com/guaguanco127/br.am](https://github.com/guaguanco127/br.am)  
 Additional programs can be found here: [https://github.com/guaguanco127/br.max](https://github.com/guaguanco127/br.max)
 
-These files were created with Max 9. 
+These files were created with Max 9, or RNBO.
 
 ## Links
 
 [What's new in 1.1](#New11)  
 [About](#About)   
 [Max/MSP Abstraction](https://github.com/guaguanco127/br.am/tree/main/MaxMSP%20Abstraction) To use as an abstraction within Max/MSP   
+[Max/MSP RNBO for External or VST](https://github.com/guaguanco127/br.am/tree/main/RNBO%20Patchers%20for%20External%20or%20VST) To build your own Max external or VST/AU plugin, or to reuse the code in your own RNBO patches (needs RNBO)  
 
-This is a Max/MSP-only release (no Max for Live device).
+You can use it as an abstraction within Max/MSP. With RNBO you can also build your own Max external or plugin from the included RNBO patch.
 
 ## <a name="New11"></a>What's new in 1.1
 
 - **Two files:** br.am.1.1 is the plain object, whose Depth, Ring and Slew inlets take signals as well as numbers (patch an LFO into Ring to morph AM into ring mod), and br.am.ui.1.1 is the version with dials, for a [bpatcher].
 - A State outlet on br.am.ui.1.1 sends the settings as named messages the moment they change.
 - A smaller panel, and an example patch with tabs: tremolo, ring mod and State outlet.
+- New RNBO patch, to build your own Max external or VST/AU plugin.
 - Inlets and audio outlets are unchanged.
 
 ## <a name="About"></a>About
