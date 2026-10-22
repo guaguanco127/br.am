@@ -479,14 +479,13 @@
                                                 "modernui": 1
                                             },
                                             "classnamespace": "dsp.gen",
-                                            "rect": [ 100.0, 100.0, 1063.0, 450.0 ],
+                                            "rect": [ 100.0, 100.0, 956.0, 630.0 ],
                                             "boxes": [
                                                 {
                                                     "box": {
                                                         "maxclass": "newobj",
                                                         "text": "in 1 @comment left in",
-                                                        "linecount": 7,
-                                                        "patching_rect": [ 20.0, 20.0, 163.0, 22.0 ],
+                                                        "patching_rect": [ 50.0, 20.0, 146.0, 22.0 ],
                                                         "numinlets": 0,
                                                         "fontname": "Arial",
                                                         "numoutlets": 1,
@@ -499,8 +498,7 @@
                                                     "box": {
                                                         "maxclass": "newobj",
                                                         "text": "in 2 @comment right in",
-                                                        "linecount": 7,
-                                                        "patching_rect": [ 198.0, 20.0, 170.0, 22.0 ],
+                                                        "patching_rect": [ 130.0, 84.0, 150.0, 22.0 ],
                                                         "numinlets": 0,
                                                         "fontname": "Arial",
                                                         "numoutlets": 1,
@@ -513,8 +511,8 @@
                                                     "box": {
                                                         "maxclass": "newobj",
                                                         "text": "in 3 @comment modulator 0 to 1",
-                                                        "linecount": 10,
-                                                        "patching_rect": [ 383.0, 20.0, 200.0, 36.0 ],
+                                                        "linecount": 2,
+                                                        "patching_rect": [ 379.0, 20.0, 107.0, 35.0 ],
                                                         "numinlets": 0,
                                                         "fontname": "Arial",
                                                         "numoutlets": 1,
@@ -526,7 +524,7 @@
                                                 {
                                                     "box": {
                                                         "maxclass": "codebox",
-                                                        "patching_rect": [ 20.0, 145.0, 400.0, 200.0 ],
+                                                        "patching_rect": [ 53.80000000000001, 197.0, 400.0, 200.0 ],
                                                         "numinlets": 6,
                                                         "fontname": "<Monospaced>",
                                                         "numoutlets": 2,
@@ -541,8 +539,7 @@
                                                     "box": {
                                                         "maxclass": "newobj",
                                                         "text": "out 1 @comment left out",
-                                                        "linecount": 8,
-                                                        "patching_rect": [ 20.0, 375.0, 177.0, 22.0 ],
+                                                        "patching_rect": [ 54.0, 437.0, 150.0, 22.0 ],
                                                         "numinlets": 1,
                                                         "fontname": "Arial",
                                                         "numoutlets": 0,
@@ -554,8 +551,7 @@
                                                     "box": {
                                                         "maxclass": "newobj",
                                                         "text": "out 2 @comment right out",
-                                                        "linecount": 9,
-                                                        "patching_rect": [ 236.0, 375.0, 184.0, 22.0 ],
+                                                        "patching_rect": [ 435.0, 430.5, 172.0, 22.0 ],
                                                         "numinlets": 1,
                                                         "fontname": "Arial",
                                                         "numoutlets": 0,
@@ -568,7 +564,7 @@
                                                         "maxclass": "newobj",
                                                         "text": "in 4 @comment depth 0-1 @default 1 @min 0 @max 1",
                                                         "linecount": 4,
-                                                        "patching_rect": [ 598.0, 20.0, 200.0, 36.0 ],
+                                                        "patching_rect": [ 513.0, 20.0, 110.0, 62.0 ],
                                                         "numinlets": 0,
                                                         "fontname": "Arial",
                                                         "numoutlets": 1,
@@ -582,7 +578,7 @@
                                                         "maxclass": "newobj",
                                                         "text": "in 5 @comment ring 0-1 @default 0 @min 0 @max 1",
                                                         "linecount": 3,
-                                                        "patching_rect": [ 813.0, 20.0, 200.0, 36.0 ],
+                                                        "patching_rect": [ 642.0, 20.0, 110.0, 49.0 ],
                                                         "numinlets": 0,
                                                         "fontname": "Arial",
                                                         "numoutlets": 1,
@@ -596,7 +592,7 @@
                                                         "maxclass": "newobj",
                                                         "text": "in 6 @comment slew ms @default 0 @min 0 @max 1000",
                                                         "linecount": 4,
-                                                        "patching_rect": [ 20.0, 66.0, 200.0, 49.0 ],
+                                                        "patching_rect": [ 762.0, 20.0, 110.0, 62.0 ],
                                                         "numinlets": 0,
                                                         "fontname": "Arial",
                                                         "numoutlets": 1,
